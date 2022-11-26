@@ -19,21 +19,34 @@
         <label for="animal-1">Animal:</label>
         <input id="animal-1" type="text" name="animal-1" placeholder="Cat" required>
         <br>
+
         <label for="animal-2">Another Animal:</label>
         <input id="animal-2" type="text" name="animal-2" placeholder="Dog" required>
         <br>
+        
         <label for="animal-3">One More Animal:</label>
         <input id="animal-3" type="text" name="animal-3" placeholder="Rabbit" required>
         <br>
+
+        <span id="answer">Answer:</span>
+        <label for="yes">Yes</label>
+        <input id="yes" type="radio" name="answer" value="Yes" required>
+        <label for="no">No</label>
+        <input id="no" type="radio" name="answer" value="No" required>
+        <br>
+
         <label for="adj-1">Adjective (past tense):</label>
         <input id="adj-1" type="text" name="adj-1" placeholder="cried" required>
         <br>
+
         <label for="verb-1">Verb (ends in -ing):</label>
         <input id="verb-1" type="text" name="verb-1" placeholder="running" required>
         <br>
+
         <label for="num-1">Number:</label>
         <input id="num-1" type="number" name="num-1" placeholder="10" required>
         <br>
+
         <label for="speed">Relative speed (ends in -er):</label>
         <select id="speed" name="speed" required>
           <option value="faster">Faster</option>
@@ -41,6 +54,7 @@
           <option value="medium">Medium</option>
         </select>
         <br>
+
         <label for="quote">Motivational Quote:</label>
         <input id="quote" type="text" name="quote" list="quote-choices" required>
         <datalist id="quote-choices">
@@ -49,9 +63,11 @@
           <option value="winner gets banana!"></option>
         </datalist>
         <br>
+
         <label for="message">Meaningful Message:</label>
         <textarea id="message" name="message" rows="8" cols="40" required></textarea>
         <br>
+
         <input type="submit" value="Form My Story!">
       </form>
     </section>
